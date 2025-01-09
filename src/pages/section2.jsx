@@ -169,13 +169,13 @@ const Section2 = () => {
             <Text fontSize="2xl" fontWeight="bold" p="1">Employee Status</Text>
             <div class="grid p-4 gap-y-4 grid-cols-3 ">
                 <div className="rounded-xl bg-white text-sky-900 border font-bold text-center border-gray-200 flex justify-end w-4/5 h-48 flex-col text-5xl "> 04
-                    <div className="rounded-lg bg-sky-900 text-white text-2xl font-bold border border-black flex justify-center h-24 mt-7">Present <br/> GDA</div>
+                    <div className="rounded-lg bg-sky-900 text-white text-2xl font-bold border border-black flex justify-center items-center h-24 mt-7">Present <br/> GDA</div>
                 </div>
                 <div className="rounded-xl bg-white text-sky-900 border font-bold text-center border-gray-200 flex justify-end w-4/5 h-48 flex-col text-5xl "> 04
-                    <div className="rounded-lg bg-sky-900 text-white text-2xl font-bold border border-black flex justify-center h-24 mt-7">Present <br/> Staff</div>
+                    <div className="rounded-lg bg-sky-900 text-white text-2xl font-bold border border-black flex justify-center items-center h-24 mt-7">Present <br/> Staff</div>
                 </div>
                 <div className="rounded-xl bg-white  text-sky-900 border font-bold text-center border-gray-200 flex justify-end w-4/5 h-48 flex-col text-5xl "> 04
-                    <div className="rounded-lg bg-sky-900 text-white text-2xl font-bold border border-black flex justify-center h-24 mt-7">Present <br/> Doctors</div>
+                    <div className="rounded-lg bg-sky-900 text-white text-2xl font-bold border border-black flex justify-center items-center h-24 mt-7">Present <br/> Doctors</div>
             </div>
                 <div className="rounded-xl bg-sky-900 text-white text-xl flex justify-center h-12 p-3 mb-4 col-span-3 mr-8">Employ management</div>
             </div>
