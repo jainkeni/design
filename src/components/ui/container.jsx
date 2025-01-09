@@ -1,4 +1,6 @@
-import { Container, Flex, Box, Image, Text, Input } from "@chakra-ui/react";
+import { Container, Flex, Box, Image, Text, Input} from "@chakra-ui/react";
+import { CiSearch } from "react-icons/ci";
+
 
 const Demo = () => {
   return (
@@ -28,23 +30,40 @@ const Demo = () => {
         <Box>
             <Text fontSize="3xl" fontWeight="bold">Narayana Eye Hospital</Text>
         </Box>
-        <Box>
-        <Input 
-        type="text" 
-        placeholder="Search" 
-        bg="white" 
-        px={3} 
-        py={1} 
-        focusBorderColor="#99c7e0" 
-        _placeholder={{
-          textDecoration: 'underline', 
-          textDecorationColor: 'gray.400' 
-        }} 
-        />
+        
+        <Box 
+          display="flex" 
+          alignItems="center" 
+          position="relative" 
+          borderBottom="2px solid"
+          borderColor="gray.300"
+          pb="1"
+          >
+          <Input
+            type="text"
+            fontSize="2xl"
+            placeholder="Search"
+            bg="white"
+            px={14} 
+            py={2}
+            _placeholder={{
+              color: "gray.300",
+            }}
+          />
+          <CiSearch
+            className="text-gray-300 text-4xl"
+            style={{
+              position: "absolute",
+              top: "50%",
+              transform: "translateY(-50%)",
+            }}
+          />
         </Box>
-        <Box>
-            <Text fontFamily="heading" fontWeight="medium" fontSize="large" mr={2}>Admin</Text>
-            <Text fontFamily="heading" fontSize="sm" letterSpacing="1px" mr={20}>hello@samwhitaker.com</Text>
+
+
+        <Box textAlign="right" mr="24">
+            <Text fontFamily="heading" fontWeight="medium" fontSize="large"  >Admin</Text>
+            <Text fontFamily="heading" fontSize="sm" letterSpacing="1px">hello@samwhitaker.com</Text>
         </Box>
       </Container>
     </Flex>
