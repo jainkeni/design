@@ -7,7 +7,7 @@ export default function Home() {
         <div className="overflow-hidden"> 
           <Demo />
           <Section2 />
-          <div class="grid grid-cols-7 grid-flow-col gap-32 px-11 -mt-3 mr-10">
+          <div className="grid grid-cols-7 grid-flow-col gap-32 px-11 -mt-10 mr-10">
             <div className="bg-white rounded-xl px-16 py-12 border border-gray-300"></div>
             <div className="bg-white rounded-xl px-16 py-12 border border-gray-300"></div>
             <div className="bg-white rounded-xl px-16 py-12 border border-gray-300"></div>
